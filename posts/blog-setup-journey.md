@@ -1,18 +1,21 @@
 ---
-title: 博客搭建记：从零部署 Astro + Mizuki 二次元博客
-published: 2026-08-17
-description: 记录我用自己的 Windows 电脑，基于 Astro 框架和 Mizuki 主题，把一个二次元风格的个人博客部署到 GitHub Pages 的全过程。
-tags: [Astro, Mizuki, GitHub Pages]
-category: 编程
+title: 博客搭建：从零部署 Astro + Mizuki 二次元博客
+published: 2026-08-17T00:00:00.000Z
 draft: false
+description: 记录我用 Windows 电脑，基于 Astro 框架和 Mizuki 主题，把一个二次元风格的个人博客部署到 GitHub Pages 的全过程。
+tags:
+  - Astro
+  - Mizuki
+  - GitHub Pages
+category: 编程
 ---
 
-一直想要一个自己的博客：能写写代码学习中的感想，也能记记日常。市面上方案很多，我最终选了 **Astro + Mizuki 主题**，托管在 **GitHub Pages** 上——全免费，而且 Mizuki 是我喜欢的二次元/Material Design 3 风格。这篇文章记录搭建全过程，也当作博客的第一篇文章。
+一直想写一个自己的博客：能写写代码学习中的感想，也能记记日常。市面上方案很多，我最终选了 **Astro + Mizuki 主题**，托管在 **GitHub Pages** 上——全免费。这篇文章记录搭建的全过程，也当作博客的第一篇文章。
 
 ## 为什么选 Astro + Mizuki
 
-- **Astro** 是内容驱动型网站的静态站点框架，默认零 JS 发往浏览器，构建产物是纯静态页面，非常适合博客，也天然适配 GitHub Pages。
-- **Mizuki** 是基于 Astro 的开源博客主题（Apache-2.0），自带明暗主题、Pagefind 全文搜索、文章分类标签、目录、KaTeX/Mermaid、代码高亮等能力，开箱即用。
+* **Astro** 是内容驱动型网站的静态站点框架，默认零 JS 发往浏览器，构建产物是纯静态页面，非常适合博客，也天然适配 GitHub Pages。
+* **Mizuki** 是基于 Astro 的开源博客主题（Apache-2.0），自带明暗主题、Pagefind 全文搜索、文章分类标签、目录、KaTeX/Mermaid、代码高亮等能力，开箱即用。
 
 ## 搭建步骤
 
@@ -67,4 +70,6 @@ Giscus 基于 GitHub Discussions，免费且无需自己跑服务器：仓库开
 
 ## 写在最后
 
-整个过程半天搞定，最大的收获是搞清楚了静态站点"构建→部署"的链路。接下来打算把学习笔记和日常都写进来。如果你也想搭一个，推荐从 [Mizuki 文档](https://docs.mizuki.mysqil.com/) 开始。
+整个过程半天搞定，最大的收获是搞清楚了静态站点"构建→部署"的链路。接下来打算把学习笔记和日常都写进来。
+
+如果你也想搭一个，推荐从 [Mizuki 文档](https://docs.mizuki.mysqil.com/) 开始。

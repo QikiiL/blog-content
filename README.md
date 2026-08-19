@@ -19,7 +19,7 @@ pnpm install
 pnpm dev
 ```
 
-启动后打开 TinaCMS 本地后台（默认 `http://localhost:4000/admin/index.html`）进行编辑。
+启动后打开 TinaCMS 本地后台（默认 `http://localhost:4001/admin/index.html`）进行编辑。
 保存后文件会直接写入本仓库，提交并推送即可：
 
 ```bash

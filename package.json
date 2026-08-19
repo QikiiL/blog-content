@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "tinacms dev -c \"echo TinaCMS local server started\"",
+    "dev": "tinacms dev",
     "build": "tinacms build",
     "tina": "tinacms"
   },

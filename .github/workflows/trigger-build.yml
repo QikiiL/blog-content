@@ -1,0 +1,23 @@
+name: Trigger Blog Build
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "posts/**"
+      - "spec/**"
+      - "data/**"
+      - "images/**"
+      - "overrides/**"
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.DISPATCH_TOKEN }}
+          repository: QikiiL/blog
+          event-type: content-updated

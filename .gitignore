@@ -1,0 +1,5 @@
+node_modules/
+.tina/__generated__/
+admin/
+.DS_Store
+*.log

@@ -1,5 +1,5 @@
 ---
-title: 你好，世界：博客的第一篇日常
+title: Hello World：博客的第一篇日常
 published: 2026-08-17T00:00:00.000Z
 draft: false
 description: 博客开张，写点碎碎念。

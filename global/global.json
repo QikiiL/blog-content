@@ -9,5 +9,17 @@
       "url": "/about/",
       "external": false
     }
+  },
+  "site": {
+    "title": "QikiiL's Blog",
+    "subtitle": "编程感想与日常随笔",
+    "siteURL": "https://qikiil.github.io/blog/",
+    "siteStartDate": "2026-08-17",
+    "timeZone": "Asia/Shanghai"
+  },
+  "profile": {
+    "name": "QikiiL",
+    "bio": "计算机学生 | 记录编程与日常",
+    "avatar": "assets/images/avatar.webp"
   }
 }

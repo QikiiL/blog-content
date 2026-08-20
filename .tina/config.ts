@@ -269,6 +269,64 @@ export default defineConfig({
               },
             ],
           },
+          {
+            type: "object",
+            name: "site",
+            label: "站点信息",
+            fields: [
+              {
+                type: "string",
+                name: "title",
+                label: "站点标题",
+              },
+              {
+                type: "string",
+                name: "subtitle",
+                label: "站点副标题",
+              },
+              {
+                type: "string",
+                name: "siteURL",
+                label: "站点 URL",
+                description: "末尾以 / 结尾",
+              },
+              {
+                type: "string",
+                name: "siteStartDate",
+                label: "站点开始日期",
+                description: "格式 YYYY-MM-DD，用于计算运行天数",
+              },
+              {
+                type: "string",
+                name: "timeZone",
+                label: "时区",
+                description: "IANA 时区，如 Asia/Shanghai",
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "profile",
+            label: "个人资料",
+            fields: [
+              {
+                type: "string",
+                name: "name",
+                label: "昵称",
+              },
+              {
+                type: "string",
+                name: "bio",
+                label: "个人简介",
+                ui: { component: "textarea" },
+              },
+              {
+                type: "image",
+                name: "avatar",
+                label: "头像",
+              },
+            ],
+          },
         ],
       },
     ],

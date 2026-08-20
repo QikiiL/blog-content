@@ -1,0 +1,13 @@
+{
+  "announcement": {
+    "title": "",
+    "content": "欢迎来到 QikiiL 的小站！\n祝你天天开心~",
+    "closable": false,
+    "link": {
+      "enable": false,
+      "text": "Learn More",
+      "url": "/about/",
+      "external": false
+    }
+  }
+}

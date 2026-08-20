@@ -195,6 +195,82 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "global",
+        label: "全局配置",
+        path: "global",
+        format: "json",
+        ui: {
+          global: true,
+          allowedActions: { create: false, delete: false },
+        },
+        fields: [
+          {
+            type: "object",
+            name: "announcement",
+            label: "公告栏",
+            fields: [
+              {
+                type: "string",
+                name: "title",
+                label: "公告标题（留空使用默认文案）",
+              },
+              {
+                type: "string",
+                name: "content",
+                label: "公告内容",
+                ui: { component: "textarea" },
+                required: true,
+              },
+              {
+                type: "string",
+                name: "icon",
+                label: "图标",
+                description: "可选的 iconify 图标名",
+              },
+              {
+                type: "string",
+                name: "type",
+                label: "公告类型",
+                options: ["info", "warning", "success", "error"],
+                ui: { component: "select" },
+              },
+              {
+                type: "boolean",
+                name: "closable",
+                label: "允许用户关闭公告",
+              },
+              {
+                type: "object",
+                name: "link",
+                label: "链接",
+                fields: [
+                  {
+                    type: "boolean",
+                    name: "enable",
+                    label: "启用链接",
+                  },
+                  {
+                    type: "string",
+                    name: "text",
+                    label: "链接文字",
+                  },
+                  {
+                    type: "string",
+                    name: "url",
+                    label: "链接地址",
+                  },
+                  {
+                    type: "boolean",
+                    name: "external",
+                    label: "外部链接",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
 });

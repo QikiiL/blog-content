@@ -12,7 +12,7 @@ const execFileAsync = promisify(execFile);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(__dirname, "..");
 
-const WATCH_DIRS = ["posts", "spec", "images", "data", "overrides"];
+const WATCH_DIRS = ["posts", "spec", "images", "data", "overrides", "global"];
 const DEBOUNCE_MS = 3000;
 
 let timer = null;

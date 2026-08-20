@@ -9,6 +9,7 @@ on:
       - "data/**"
       - "images/**"
       - "overrides/**"
+      - "global/**"
   workflow_dispatch:
 
 jobs:

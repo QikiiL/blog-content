@@ -302,6 +302,34 @@ export default defineConfig({
                 label: "时区",
                 description: "IANA 时区，如 Asia/Shanghai",
               },
+              {
+                type: "object",
+                name: "banner",
+                label: "首页横幅",
+                fields: [
+                  {
+                    type: "object",
+                    name: "homeText",
+                    label: "首页文字",
+                    fields: [
+                      {
+                        type: "string",
+                        name: "title",
+                        label: "横幅标题",
+                      },
+                      {
+                        type: "string",
+                        name: "subtitle",
+                        label: "副标题（多行轮播）",
+                        list: true,
+                        ui: {
+                          component: "textarea",
+                        },
+                      },
+                    ],
+                  },
+                ],
+              },
             ],
           },
           {

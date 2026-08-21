@@ -15,11 +15,23 @@
     "subtitle": "编程感想与日常随笔",
     "siteURL": "https://qikiil.github.io/blog/",
     "siteStartDate": "2026-08-17",
-    "timeZone": "Asia/Shanghai"
+    "timeZone": "Asia/Shanghai",
+    "banner": {
+      "homeText": {
+        "title": "QikiiL's Blog",
+        "subtitle": [
+          "特別なことはないけど、君がいると十分です",
+          "今でもあなたは私の光",
+          "君ってさ、知らないうちに私の毎日になってたよ",
+          "君と話すと、なんか毎日がちょっと楽しくなるんだ",
+          "今日はなんでもない日。でも、ちょっとだけいい日"
+        ]
+      }
+    }
   },
   "profile": {
     "name": "QikiiL",
-    "bio": "计算机学生",
+    "bio": "计算机学生 | 记录编程与日常",
     "avatar": "assets/images/avatar.webp"
   }
 }

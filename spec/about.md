@@ -10,8 +10,8 @@ title: 关于我
 
 ::github{repo="LyraVoid/Mizuki"}
 
-- 📌 写作方向：编程技术、课程笔记、日常随笔
-- 💬 评论：文章下方可以直接留言（Giscus，用 GitHub 账号登录）
-- 🔗 找到我：[GitHub](https://github.com/QikiiL)
+* 📌 写作方向：编程技术、玩机技巧、日常随笔
+* 💬 评论：文章下方可以直接留言（Giscus，用 GitHub 账号登录）
+* 🔗 找到我：[GitHub](https://github.com/QikiiL)
 
 欢迎常来！

@@ -357,6 +357,66 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "friends",
+        label: "友链数据",
+        path: "friends",
+        format: "json",
+        ui: {
+          global: true,
+          allowedActions: { create: false, delete: false },
+        },
+        fields: [
+          {
+            type: "object",
+            name: "friends",
+            label: "友情链接列表",
+            list: true,
+            ui: {
+              component: "group-list",
+              itemProps: (item) => ({
+                key: item.id,
+                label: item.title || "未命名友链",
+              }),
+            },
+            fields: [
+              {
+                type: "number",
+                name: "id",
+                label: "ID",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "站点名",
+                required: true,
+              },
+              {
+                type: "string",
+                name: "imgurl",
+                label: "头像/图标 URL",
+              },
+              {
+                type: "string",
+                name: "desc",
+                label: "描述",
+                ui: { component: "textarea" },
+              },
+              {
+                type: "string",
+                name: "siteurl",
+                label: "链接地址",
+              },
+              {
+                type: "string",
+                name: "tags",
+                label: "标签",
+                list: true,
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
 });

@@ -1,0 +1,20 @@
+{
+  "friends": [
+    {
+      "id": 1,
+      "title": "Mizuki Docs",
+      "imgurl": "https://github.com/LyraVoid.png",
+      "desc": "本站所用主题的官方文档",
+      "siteurl": "https://docs.mizuki.mysqil.com",
+      "tags": ["Docs"]
+    },
+    {
+      "id": 2,
+      "title": "Astro",
+      "imgurl": "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
+      "desc": "The web framework for content-driven websites",
+      "siteurl": "https://astro.build",
+      "tags": ["Framework"]
+    }
+  ]
+}

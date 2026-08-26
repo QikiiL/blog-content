@@ -1,6 +1,7 @@
 ---
 title: 博客搭建篇：从零部署 Astro + Mizuki 二次元博客
 published: 2026-08-17T00:00:00.000Z
+updated: 2026-08-27T00:00:00.000Z
 draft: false
 description: 记录我用 Windows 电脑，基于 Astro 框架和 Mizuki 主题，把一个二次元风格的个人博客部署到 GitHub Pages 的全过程。
 tags:

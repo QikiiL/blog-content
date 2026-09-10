@@ -76,3 +76,17 @@ GitHub Pages 本身不会自动引入 jsDelivr。是你选用的静态站点模�
 
 * 全局搜索仓库里的 html、md、\_includes/、\_layouts/、\_config.yml
 * 一般在页面头部 \_includes/head.html，这里写了 CSS、JS、图标库的 cdn 引入代码
+
+2\. Hugo/ Astro等其他静态框架
+
+*  在主题配置文件或者 layout 模板内，找到资源引用代码
+
+举个 Jekyll 典型示例（\_includes/head.html）
+
+```htmlbars
+<!-- 模板自带原版，国内访问容易挂 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xxx/theme@v1.0/assets/style.css">
+
+<!-- 替换域名之后 -->
+<link rel="stylesheet" href="https://cdn.jsdmirror.com/gh/xxx/theme@v1.0/assets/style.css">
+```

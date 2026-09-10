@@ -68,12 +68,11 @@ CDN 的全称是 **Content Delivery Network**，意为内容分发网络。
 
 ### 2.如何使用CDN
 
-GitHub Pages 本身不会自动引入 jsDelivr。是你选用的静态站点模板（Jekyll/Hugo/VitePress 等），模板默认写死了 jsDelivr 的资源地址。
+GitHub Pages 本身不会自动引入 jsDelivr。是你选用的静态站点模板（Jekyll/Hugo/Astro 等），模板默认写死了 jsDelivr 的资源地址。
 
 所以修改位置就在模板的网页源码：
 
 1\. Jekyll（GitHub Pages 原生默认引擎）
 
-   \- 全局搜索仓库里的 html、md、\`\_includes/\`、\`\_layouts/\`、\`\_config.yml\`
-
-   \- 一般在页面头部 \`\_includes/head.html\`，这里写了 CSS、JS、图标库的 cdn 引入代码
+* 全局搜索仓库里的 html、md、\_includes/、\_layouts/、\_config.yml
+* 一般在页面头部 \_includes/head.html，这里写了 CSS、JS、图标库的 cdn 引入代码

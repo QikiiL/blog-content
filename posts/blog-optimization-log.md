@@ -79,7 +79,7 @@ GitHub Pages 本身不会自动引入 jsDelivr。是你选用的静态站点模�
 
 2\. Hugo/ Astro等其他静态框架
 
-*  在主题配置文件或者 layout 模板内，找到资源引用代码
+* 在主题配置文件或者 layout 模板内，找到资源引用代码
 
 举个 Jekyll 典型示例（\_includes/head.html）
 
@@ -90,3 +90,5 @@ GitHub Pages 本身不会自动引入 jsDelivr。是你选用的静态站点模�
 <!-- 替换域名之后 -->
 <link rel="stylesheet" href="https://cdn.jsdmirror.com/gh/xxx/theme@v1.0/assets/style.css">
 ```
+
+> 很多人部署 GitHub Pages 网站后，网页主体能打开，但页面引用的 JS、图标、CSS 一直转圈加载失败，问题根源就是页面引入了cdn.jsdelivr.net的资源。将网页内的 jsDelivr 链接替换为 JSDMirror，静态资源从国内 CDN 节点分发，GitHub Pages 网页就能完整加载。

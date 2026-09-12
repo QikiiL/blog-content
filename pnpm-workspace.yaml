@@ -1,3 +1,5 @@
 allowBuilds:
   better-sqlite3: true
   esbuild: true
+patchedDependencies:
+  '@tinacms/cli': patches/@tinacms__cli.patch

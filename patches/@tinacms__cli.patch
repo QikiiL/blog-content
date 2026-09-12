@@ -1,0 +1,24 @@
+diff --git a/dist/index.js b/dist/index.js
+index 65f416af246de0cbd126bf328fb52a98916ba435..efdb322e8745f812bdf5668940bcb2cbe707f1af 100644
+--- a/dist/index.js
++++ b/dist/index.js
+@@ -2224,7 +2224,18 @@ var devServerEndPointsPlugin = ({
+           return;
+         }
+         if (req.url === "/graphql") {
+-          const { query, variables } = req.body;
++          const { query, variables } = req.body ?? {};
++          if (typeof query !== "string") {
++            res.statusCode = 400;
++            res.end(
++              JSON.stringify({
++                errors: [
++                  { message: "No GraphQL query present in request body" }
++                ]
++              })
++            );
++            return;
++          }
+           let result;
+           await databaseLock(async () => {
+             result = await (0, import_graphql9.resolve)({

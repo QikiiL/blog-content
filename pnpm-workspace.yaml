@@ -1,5 +1,8 @@
 allowBuilds:
   better-sqlite3: true
+  core-js: true
   esbuild: true
+minimumReleaseAgeExclude:
+  - '@tinacms/cli@4.0.1'
 patchedDependencies:
   '@tinacms/cli': patches/@tinacms__cli.patch

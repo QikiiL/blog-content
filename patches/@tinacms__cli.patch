@@ -1,8 +1,8 @@
 diff --git a/dist/index.js b/dist/index.js
-index 65f416af246de0cbd126bf328fb52a98916ba435..efdb322e8745f812bdf5668940bcb2cbe707f1af 100644
+index f2c306c87f6110dc90dd8cbafd0c9e75f59c81c4..ef0aaa1ae30b047bafd49fa3468e22620ddaa73b 100644
 --- a/dist/index.js
 +++ b/dist/index.js
-@@ -2224,7 +2224,18 @@ var devServerEndPointsPlugin = ({
+@@ -3270,7 +3270,18 @@ var devServerEndPointsPlugin = ({
            return;
          }
          if (req.url === "/graphql") {
@@ -21,4 +21,4 @@ index 65f416af246de0cbd126bf328fb52a98916ba435..efdb322e8745f812bdf5668940bcb2cb
 +          }
            let result;
            await databaseLock(async () => {
-             result = await (0, import_graphql9.resolve)({
+             result = await gqlResolve({

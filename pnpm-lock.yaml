@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 patchedDependencies:
-  '@tinacms/cli': c4483852d0b9889df6518c6faf16897fdd0ec0aa34ce0b58cd59be08d0a94243
+  '@tinacms/cli': 397797d4f14d8ebae843761dc6a84e801245c06acbac8a8958803b1c80f98cf4
 
 importers:
 
@@ -13,7 +13,7 @@ importers:
     dependencies:
       '@tinacms/cli':
         specifier: ^4.0.1
-        version: 4.0.1(patch_hash=c4483852d0b9889df6518c6faf16897fdd0ec0aa34ce0b58cd59be08d0a94243)(@codemirror/language@6.0.0)(@emotion/is-prop-valid@0.8.8)(@types/node@26.2.0)(abstract-level@1.0.4)(immer@10.0.3)(jiti@1.21.7)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.64.0)(scheduler@0.23.2)(slate-dom@0.114.0(slate@0.114.0))(slate@0.114.0)(use-sync-external-store@1.7.0(react@18.3.1))(yaml@2.9.0)
+        version: 4.0.1(patch_hash=397797d4f14d8ebae843761dc6a84e801245c06acbac8a8958803b1c80f98cf4)(@codemirror/language@6.0.0)(@emotion/is-prop-valid@0.8.8)(@types/node@26.2.0)(abstract-level@1.0.4)(immer@10.0.3)(jiti@1.21.7)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.64.0)(scheduler@0.23.2)(slate-dom@0.114.0(slate@0.114.0))(slate@0.114.0)(use-sync-external-store@1.7.0(react@18.3.1))(yaml@2.9.0)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -6425,7 +6425,7 @@ snapshots:
 
   '@tinacms/bridge@0.3.1': {}
 
-  '@tinacms/cli@4.0.1(patch_hash=c4483852d0b9889df6518c6faf16897fdd0ec0aa34ce0b58cd59be08d0a94243)(@codemirror/language@6.0.0)(@emotion/is-prop-valid@0.8.8)(@types/node@26.2.0)(abstract-level@1.0.4)(immer@10.0.3)(jiti@1.21.7)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.64.0)(scheduler@0.23.2)(slate-dom@0.114.0(slate@0.114.0))(slate@0.114.0)(use-sync-external-store@1.7.0(react@18.3.1))(yaml@2.9.0)':
+  '@tinacms/cli@4.0.1(patch_hash=397797d4f14d8ebae843761dc6a84e801245c06acbac8a8958803b1c80f98cf4)(@codemirror/language@6.0.0)(@emotion/is-prop-valid@0.8.8)(@types/node@26.2.0)(abstract-level@1.0.4)(immer@10.0.3)(jiti@1.21.7)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.64.0)(scheduler@0.23.2)(slate-dom@0.114.0(slate@0.114.0))(slate@0.114.0)(use-sync-external-store@1.7.0(react@18.3.1))(yaml@2.9.0)':
     dependencies:
       '@graphql-codegen/core': 6.2.1(graphql@15.8.0)
       '@graphql-codegen/plugin-helpers': 7.3.0(graphql@15.8.0)
